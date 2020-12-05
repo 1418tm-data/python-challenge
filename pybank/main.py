@@ -43,7 +43,7 @@ with open(pybank_csv, 'r') as csvfile:
     print("------")
     
 # create a new textfile to write the results to
-pybank_txt = os.path.join("resources", "pybank.txt")
+pybank_txt = os.path.join("analysis", "pybank.txt")
 #open the file and begin the writing process
 with open(pybank_txt, 'w', newline='') as txtfile:
     txtfile.write("Financial Analysis" + "\n")
