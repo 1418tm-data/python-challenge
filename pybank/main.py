@@ -42,9 +42,9 @@ with open(pybank_csv, 'r') as csvfile:
     print(f"Greatest Decrease in Profits: {great_dec_date} (${great_dec})")
     print("------")
     
-
+# create a new textfile to write the results to
 pybank_txt = os.path.join("resources", "pybank.txt")
-
+#open the file and begin the writing process
 with open(pybank_txt, 'w', newline='') as txtfile:
     txtfile.write("Financial Analysis" + "\n")
     txtfile.write("-----------------------------" + "\n")
